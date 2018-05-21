@@ -1,0 +1,47 @@
+{
+  "name": "zillow-photogallery-component",
+  "version": "1.0.0",
+  "description": "This is the Zillow PhotoGallery Component.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishan10/Zillow-PhotoGallery.git"
+  },
+  "keywords": [
+    "Zillow",
+    "Webpack"
+  ],
+  "author": "Ishan Pandya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ishan10/Zillow-PhotoGallery.git/issues"
+  },
+  "homepage": "https://github.com/ishan10/Zillow-PhotoGallery.git#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "base64-inline-loader": "^1.1.1",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "mini-css-extract-plugin": "^0.4.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  }
+}
