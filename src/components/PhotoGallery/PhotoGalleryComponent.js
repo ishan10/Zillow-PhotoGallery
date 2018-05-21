@@ -1,18 +1,19 @@
 import React, { Component } from 'react'
-import image from '../../images/San-Francisco.jpg'
+import image1 from '../../images/San-Francisco.jpg'
+import image2 from '../../images/github.svg'
+import ImagesCarouselComponent from './ImagesCarouselComponent.js'
 
 
 class PhotoGalleryComponent extends Component{
 	constructor(props){
 		super(props);
-		this.state = {images:[{url:image, caption:"San Francisco"}],showGrid:false};
+		this.state = {images:[{url:image1, caption:"San Francisco"} , {url:image2, caption:"Github"}],showGrid:false};
 	}
 
 	render(){
 		return (
 			<div className="wrapper">
-				<img src = {this.state.images[0].url} />
-				<p> {this.state.images[0].caption} </p>
+				<ImagesCarouselComponent images={this.state.images}  />
 			</div>
 			
 			)
