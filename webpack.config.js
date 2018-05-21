@@ -1,5 +1,6 @@
 const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const __DEV__ = 'development';
 const __PROD__ = 'production';
@@ -15,6 +16,10 @@ const config ={
 		port:4000
 	},
 	plugins: [
+	new HtmlWebpackPlugin({
+		title: 'Caching',
+		template: 'src/index.html'
+      }),
       new MiniCssExtractPlugin({
       filename: '[name].[contenthash].css'
     })
