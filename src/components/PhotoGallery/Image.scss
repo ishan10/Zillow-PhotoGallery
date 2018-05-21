@@ -21,3 +21,12 @@
 .slick-next:before, .slick-prev:before {
     color: #000;
 }
+
+.slick-next:before{
+    content:"\2192";
+}
+
+.slick-prev:before{
+    
+    content:"\2190";
+}
