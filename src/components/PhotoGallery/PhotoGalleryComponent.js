@@ -1,19 +1,38 @@
 import React, { Component } from 'react'
-import image1 from '../../images/San-Francisco.jpg'
-import image2 from '../../images/github.svg'
 import ImagesCarouselComponent from './ImagesCarouselComponent.js'
 
 
 class PhotoGalleryComponent extends Component{
 	constructor(props){
 		super(props);
-		this.state = {images:[{url:image1, caption:"San Francisco"} , {url:image2, caption:"Github"}],showGrid:false};
+		this.state = {images:[],showGrid:false};
 	}
 
+	//Dynamically import Photo Gallery Images on componentDidMount()
+	importAll(r) {
+		let image = {};
+		//Keeping image names as Captions
+		r.keys().map((item, index) => { image[item.replace('./', '')] = r(item); });
+		return image;
+	}
+
+	componentDidMount() {
+	 	let importedImages = this.importAll(require.context('../../images', false, /\.(jpeg|jpg|png|gif|svg)$/));
+
+	 	let allImages =  Object.keys(importedImages).map(function(key) {
+	 		let image = {};
+	 		image.url = importedImages[key];
+	 		image.caption = key; //Keeping image names as Captions
+	 		return image;
+	 	});
+
+	 	this.setState({images: allImages, showGrid:true});
+	 }
+	 
 	render(){
 		return (
 			<div className="wrapper">
-				<ImagesCarouselComponent images={this.state.images}  />
+				{this.state.showGrid ? <ImagesCarouselComponent images={this.state.images}  /> : null}
 			</div>
 			
 			)
