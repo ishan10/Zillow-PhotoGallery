@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import ImagesCarouselComponent from './ImagesCarouselComponent.js'
+import './PhotoGallery.scss'
 
 
 class PhotoGalleryComponent extends Component{
@@ -28,7 +29,7 @@ class PhotoGalleryComponent extends Component{
 
 	 	this.setState({images: allImages, showGrid:true});
 	 }
-	 
+
 	render(){
 		return (
 			<div className="wrapper">
