@@ -1,14 +1,12 @@
-.wrapper{
-	position: relative;
-	width: 60%;
-	height:50%;
-	margin: auto;
-	margin-top:5%;
-}
+.wrapper {
+  position: relative;
+  width: 60%;
+  height: 50%;
+  margin: auto;
+  margin-top: 5%; }
 
-.wrapper img{
-	width:100%;
-}
+.wrapper img {
+  width: 100%; }
 
 /*.prev, .next {
   cursor: pointer;
@@ -31,3 +29,10 @@
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }*/
+
+.container {
+  max-width: 1000px;
+  max-height: 700px;
+  position: relative;
+  margin: auto; }
+
