@@ -11,6 +11,7 @@ class App extends Component {
 	render(){
 		return(
 			<div className="container">
+				<h3>Zillow Photo Gallery Component </h3>
 				<PhotoGalleryComponent />
 			</div>
 			)

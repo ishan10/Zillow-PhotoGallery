@@ -1,0 +1,42 @@
+.image-container {
+  position: relative; }
+
+.image-container {
+  cursor: pointer; }
+
+.caption {
+  position: absolute;
+  bottom: 83px;
+  right: 43px;
+  background-color: black;
+  color: white;
+  padding: 20px 80px;
+  opacity: 0.8;
+  font-size: 20px;
+  font-family: 'PT Sans Caption', sans-serif; }
+
+.slick-next:before, .slick-prev:before {
+  color: #000; }
+
+.wrapper {
+  position: relative;
+  width: 80%;
+  height: 60%;
+  margin: auto; }
+
+.wrapper img {
+  width: 100%; }
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  background-color: #F8F8F8; }
+
+.container {
+  max-width: 1000px;
+  max-height: 600px;
+  position: relative;
+  margin: auto; }
+
+.container h3 {
+  text-align: center; }
+

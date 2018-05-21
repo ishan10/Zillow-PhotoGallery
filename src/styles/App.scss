@@ -1,6 +1,15 @@
+body{
+	font-family: 'PT Sans', sans-serif;
+	background-color:#F8F8F8;
+}
+
 .container{
 	max-width: 1000px;
-	max-height: 700px;
+	max-height: 600px;
   	position: relative;
-  	margin: auto; 
+  	margin: auto;
+}
+
+.container h3{
+	text-align:center;
 }

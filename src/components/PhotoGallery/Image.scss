@@ -1,0 +1,23 @@
+.image-container{
+	position: relative;
+}
+
+.image-container{
+	cursor:pointer;
+}
+
+.caption{
+	position: absolute;
+    bottom: 83px;
+    right: 43px;
+    background-color: black;
+    color: white;
+    padding: 20px 80px;
+    opacity: 0.8;
+    font-size: 20px;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+.slick-next:before, .slick-prev:before {
+    color: #000;
+}

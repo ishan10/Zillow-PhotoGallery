@@ -2504,7 +2504,18 @@ eval("var g;\r\n\r\n// This works in non-strict mode\r\ng = (function() {\r\n\tr
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n\tvalue: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/react.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _PhotoGalleryComponent = __webpack_require__(/*! ./components/PhotoGallery/PhotoGalleryComponent */ \"./src/components/PhotoGallery/PhotoGalleryComponent.js\");\n\nvar _PhotoGalleryComponent2 = _interopRequireDefault(_PhotoGalleryComponent);\n\n__webpack_require__(/*! ./styles/App.scss */ \"./src/styles/App.scss\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar App = function (_Component) {\n\t_inherits(App, _Component);\n\n\tfunction App(props) {\n\t\t_classCallCheck(this, App);\n\n\t\treturn _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).call(this, props));\n\t}\n\n\t_createClass(App, [{\n\t\tkey: 'render',\n\t\tvalue: function render() {\n\t\t\treturn _react2.default.createElement(\n\t\t\t\t'div',\n\t\t\t\t{ className: 'container' },\n\t\t\t\t_react2.default.createElement(_PhotoGalleryComponent2.default, null)\n\t\t\t);\n\t\t}\n\t}]);\n\n\treturn App;\n}(_react.Component);\n\nexports.default = App;\n\n//# sourceURL=webpack:///./src/App.js?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n\tvalue: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/react.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _PhotoGalleryComponent = __webpack_require__(/*! ./components/PhotoGallery/PhotoGalleryComponent */ \"./src/components/PhotoGallery/PhotoGalleryComponent.js\");\n\nvar _PhotoGalleryComponent2 = _interopRequireDefault(_PhotoGalleryComponent);\n\n__webpack_require__(/*! ./styles/App.scss */ \"./src/styles/App.scss\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar App = function (_Component) {\n\t_inherits(App, _Component);\n\n\tfunction App(props) {\n\t\t_classCallCheck(this, App);\n\n\t\treturn _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).call(this, props));\n\t}\n\n\t_createClass(App, [{\n\t\tkey: 'render',\n\t\tvalue: function render() {\n\t\t\treturn _react2.default.createElement(\n\t\t\t\t'div',\n\t\t\t\t{ className: 'container' },\n\t\t\t\t_react2.default.createElement(\n\t\t\t\t\t'h3',\n\t\t\t\t\tnull,\n\t\t\t\t\t'Zillow Photo Gallery Component '\n\t\t\t\t),\n\t\t\t\t_react2.default.createElement(_PhotoGalleryComponent2.default, null)\n\t\t\t);\n\t\t}\n\t}]);\n\n\treturn App;\n}(_react.Component);\n\nexports.default = App;\n\n//# sourceURL=webpack:///./src/App.js?");
+
+/***/ }),
+
+/***/ "./src/components/PhotoGallery/Image.scss":
+/*!************************************************!*\
+  !*** ./src/components/PhotoGallery/Image.scss ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/components/PhotoGallery/Image.scss?");
 
 /***/ }),
 
@@ -2516,7 +2527,7 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n\tvalue: true\n});\n
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n\tvalue: true\n});\nexports.ImageComponent = undefined;\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/react.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar ImageComponent = exports.ImageComponent = function ImageComponent(props) {\n\treturn _react2.default.createElement(\n\t\t\"div\",\n\t\t{ className: \"image-container\" },\n\t\t_react2.default.createElement(\"img\", { src: props.image.url, alt: \"Image\" }),\n\t\t_react2.default.createElement(\n\t\t\t\"a\",\n\t\t\t{ href: props.image.url },\n\t\t\t\"URL\"\n\t\t),\n\t\t_react2.default.createElement(\n\t\t\t\"span\",\n\t\t\tnull,\n\t\t\t\" \",\n\t\t\tprops.image.caption\n\t\t)\n\t);\n};\n\n//# sourceURL=webpack:///./src/components/PhotoGallery/ImageComponent.js?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n\tvalue: true\n});\nexports.ImageComponent = undefined;\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/react.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\n__webpack_require__(/*! ./Image.scss */ \"./src/components/PhotoGallery/Image.scss\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar ImageComponent = exports.ImageComponent = function ImageComponent(props) {\n\treturn _react2.default.createElement(\n\t\t'div',\n\t\t{ className: 'image-container' },\n\t\t_react2.default.createElement(\n\t\t\t'a',\n\t\t\t{ href: props.image.url },\n\t\t\t_react2.default.createElement('img', { src: props.image.url, alt: 'Image' })\n\t\t),\n\t\t_react2.default.createElement(\n\t\t\t'figcaption',\n\t\t\t{ className: 'caption' },\n\t\t\t' ',\n\t\t\tprops.image.caption\n\t\t)\n\t);\n};\n\n//# sourceURL=webpack:///./src/components/PhotoGallery/ImageComponent.js?");
 
 /***/ }),
 
@@ -2528,7 +2539,7 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n\tvalue: true\n});\n
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n\tvalue: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/react.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _ImageComponent = __webpack_require__(/*! ./ImageComponent.js */ \"./src/components/PhotoGallery/ImageComponent.js\");\n\nvar _reactSlick = __webpack_require__(/*! react-slick */ \"./node_modules/react-slick/lib/index.js\");\n\nvar _reactSlick2 = _interopRequireDefault(_reactSlick);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar ImagesCarouselComponent = function (_Component) {\n\t_inherits(ImagesCarouselComponent, _Component);\n\n\tfunction ImagesCarouselComponent(props) {\n\t\t_classCallCheck(this, ImagesCarouselComponent);\n\n\t\tvar _this = _possibleConstructorReturn(this, (ImagesCarouselComponent.__proto__ || Object.getPrototypeOf(ImagesCarouselComponent)).call(this, props));\n\n\t\t_this.state = { imageNumber: 0, images: props.images };\n\t\t//\tthis.showPrevious=this.showPrevious.bind(this);\n\t\t//\tthis.showNext=this.showNext.bind(this);\n\t\treturn _this;\n\t}\n\n\t//Function to show the previous image in the carousel\n\t/*showPrevious(){\r\n \t//debugger;\r\n \tif(this.state.imageNumber < this.state.images.length-1){\r\n \tthis.setState({imageNumber:this.state.imageNumber+1});\r\n \t} else{\r\n \t\tthis.setState({imageNumber:0 });\r\n \t}\r\n }*/\n\n\t//Function to show the next image in the carousel\n\t/*showNext(){\r\n \tif(this.state.imageNumber > 0){\r\n \tthis.setState({imageNumber:this.state.imageNumber-1});\r\n \t} else{\r\n \t\tthis.setState({imageNumber: this.state.images.length-1});\r\n \t}\r\n }*/\n\n\t_createClass(ImagesCarouselComponent, [{\n\t\tkey: 'render',\n\t\tvalue: function render() {\n\t\t\tvar _this2 = this;\n\n\t\t\tvar style = this.state.images[this.state.imageNumber];\n\t\t\t//Creating array of ImageComponents to show all images in the carousel.\n\t\t\t/*const rows =[];\r\n   this.props.images.forEach((image) =>\r\n   \trows.push(<ImageComponent key={rows.length} image={image}/>)\r\n   \t)*/\n\n\t\t\tvar settings = {\n\t\t\t\tarrows: true,\n\t\t\t\tinfinite: true,\n\t\t\t\tspeed: 1000,\n\t\t\t\tslidesToShow: 1,\n\t\t\t\tslidesToScroll: 1\n\t\t\t};\n\n\t\t\treturn _react2.default.createElement(\n\t\t\t\t'div',\n\t\t\t\tnull,\n\t\t\t\t_react2.default.createElement('div', null),\n\t\t\t\t_react2.default.createElement(\n\t\t\t\t\t'div',\n\t\t\t\t\t{ className: 'carousel' },\n\t\t\t\t\t_react2.default.createElement(\n\t\t\t\t\t\t_reactSlick2.default,\n\t\t\t\t\t\tsettings,\n\t\t\t\t\t\tthis.state.images.map(function (item) {\n\t\t\t\t\t\t\treturn _react2.default.createElement(\n\t\t\t\t\t\t\t\t'div',\n\t\t\t\t\t\t\t\t{ key: _this2.state.imageNumber },\n\t\t\t\t\t\t\t\t_react2.default.createElement(_ImageComponent.ImageComponent, {\n\t\t\t\t\t\t\t\t\timage: item })\n\t\t\t\t\t\t\t);\n\t\t\t\t\t\t})\n\t\t\t\t\t)\n\t\t\t\t)\n\t\t\t);\n\t\t}\n\t}]);\n\n\treturn ImagesCarouselComponent;\n}(_react.Component);\n\nexports.default = ImagesCarouselComponent;\n\n//# sourceURL=webpack:///./src/components/PhotoGallery/ImagesCarouselComponent.js?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n\tvalue: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/react.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactSlick = __webpack_require__(/*! react-slick */ \"./node_modules/react-slick/lib/index.js\");\n\nvar _reactSlick2 = _interopRequireDefault(_reactSlick);\n\nvar _ImageComponent = __webpack_require__(/*! ./ImageComponent.js */ \"./src/components/PhotoGallery/ImageComponent.js\");\n\n__webpack_require__(/*! ./Image.scss */ \"./src/components/PhotoGallery/Image.scss\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar ImagesCarouselComponent = function (_Component) {\n\t_inherits(ImagesCarouselComponent, _Component);\n\n\tfunction ImagesCarouselComponent(props) {\n\t\t_classCallCheck(this, ImagesCarouselComponent);\n\n\t\tvar _this = _possibleConstructorReturn(this, (ImagesCarouselComponent.__proto__ || Object.getPrototypeOf(ImagesCarouselComponent)).call(this, props));\n\n\t\t_this.state = { imageNumber: 0, images: props.images };\n\t\treturn _this;\n\t}\n\n\t_createClass(ImagesCarouselComponent, [{\n\t\tkey: 'render',\n\t\tvalue: function render() {\n\t\t\tvar _this2 = this;\n\n\t\t\tvar settings = {\n\t\t\t\tarrows: true,\n\t\t\t\tinfinite: true,\n\t\t\t\tspeed: 1100,\n\t\t\t\tslidesToShow: 1,\n\t\t\t\tslidesToScroll: 1\n\t\t\t};\n\n\t\t\treturn _react2.default.createElement(\n\t\t\t\t'div',\n\t\t\t\t{ className: 'carousel' },\n\t\t\t\t_react2.default.createElement(\n\t\t\t\t\t_reactSlick2.default,\n\t\t\t\t\tsettings,\n\t\t\t\t\tthis.state.images.map(function (item) {\n\t\t\t\t\t\treturn _react2.default.createElement(\n\t\t\t\t\t\t\t'div',\n\t\t\t\t\t\t\t{ key: _this2.state.imageNumber },\n\t\t\t\t\t\t\t_react2.default.createElement(_ImageComponent.ImageComponent, { image: item })\n\t\t\t\t\t\t);\n\t\t\t\t\t})\n\t\t\t\t)\n\t\t\t);\n\t\t}\n\t}]);\n\n\treturn ImagesCarouselComponent;\n}(_react.Component);\n\nexports.default = ImagesCarouselComponent;\n\n//# sourceURL=webpack:///./src/components/PhotoGallery/ImagesCarouselComponent.js?");
 
 /***/ }),
 
@@ -2562,29 +2573,73 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n\tvalue: true\n});\n
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var map = {\n\t\"./Kung-Fu-Panda-3-after-credits-hq.jpg\": \"./src/images/Kung-Fu-Panda-3-after-credits-hq.jpg\",\n\t\"./San-Francisco.jpg\": \"./src/images/San-Francisco.jpg\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\tvar module = __webpack_require__(id);\n\treturn module;\n}\nfunction webpackContextResolve(req) {\n\tvar id = map[req];\n\tif(!(id + 1)) { // check for number or string\n\t\tvar e = new Error('Cannot find module \"' + req + '\".');\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn id;\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./src/images sync \\\\.(jpeg|jpg|png|gif|svg)$\";\n\n//# sourceURL=webpack:///./src/images_sync_nonrecursive_\\.(jpeg%7Cjpg%7Cpng%7Cgif%7Csvg)$?");
+eval("var map = {\n\t\"./Beach.jpg\": \"./src/images/Beach.jpg\",\n\t\"./Celestial.jpg\": \"./src/images/Celestial.jpg\",\n\t\"./Mountains.jpg\": \"./src/images/Mountains.jpg\",\n\t\"./Ney York.jpg\": \"./src/images/Ney York.jpg\",\n\t\"./Shop.jpg\": \"./src/images/Shop.jpg\",\n\t\"./Sunset.jpg\": \"./src/images/Sunset.jpg\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\tvar module = __webpack_require__(id);\n\treturn module;\n}\nfunction webpackContextResolve(req) {\n\tvar id = map[req];\n\tif(!(id + 1)) { // check for number or string\n\t\tvar e = new Error('Cannot find module \"' + req + '\".');\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn id;\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./src/images sync \\\\.(jpeg|jpg|png|gif|svg)$\";\n\n//# sourceURL=webpack:///./src/images_sync_nonrecursive_\\.(jpeg%7Cjpg%7Cpng%7Cgif%7Csvg)$?");
 
 /***/ }),
 
-/***/ "./src/images/Kung-Fu-Panda-3-after-credits-hq.jpg":
-/*!*********************************************************!*\
-  !*** ./src/images/Kung-Fu-Panda-3-after-credits-hq.jpg ***!
-  \*********************************************************/
+/***/ "./src/images/Beach.jpg":
+/*!******************************!*\
+  !*** ./src/images/Beach.jpg ***!
+  \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"src/images/Kung-Fu-Panda-3-after-credits-hq.jpg\";\n\n//# sourceURL=webpack:///./src/images/Kung-Fu-Panda-3-after-credits-hq.jpg?");
+eval("module.exports = __webpack_require__.p + \"src/images/Beach.jpg\";\n\n//# sourceURL=webpack:///./src/images/Beach.jpg?");
 
 /***/ }),
 
-/***/ "./src/images/San-Francisco.jpg":
-/*!**************************************!*\
-  !*** ./src/images/San-Francisco.jpg ***!
-  \**************************************/
+/***/ "./src/images/Celestial.jpg":
+/*!**********************************!*\
+  !*** ./src/images/Celestial.jpg ***!
+  \**********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"src/images/San-Francisco.jpg\";\n\n//# sourceURL=webpack:///./src/images/San-Francisco.jpg?");
+eval("module.exports = __webpack_require__.p + \"src/images/Celestial.jpg\";\n\n//# sourceURL=webpack:///./src/images/Celestial.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/Mountains.jpg":
+/*!**********************************!*\
+  !*** ./src/images/Mountains.jpg ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"src/images/Mountains.jpg\";\n\n//# sourceURL=webpack:///./src/images/Mountains.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/Ney York.jpg":
+/*!*********************************!*\
+  !*** ./src/images/Ney York.jpg ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"src/images/Ney York.jpg\";\n\n//# sourceURL=webpack:///./src/images/Ney_York.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/Shop.jpg":
+/*!*****************************!*\
+  !*** ./src/images/Shop.jpg ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"src/images/Shop.jpg\";\n\n//# sourceURL=webpack:///./src/images/Shop.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/Sunset.jpg":
+/*!*******************************!*\
+  !*** ./src/images/Sunset.jpg ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"src/images/Sunset.jpg\";\n\n//# sourceURL=webpack:///./src/images/Sunset.jpg?");
 
 /***/ }),
 
